@@ -1,0 +1,179 @@
+header{
+    background-color: #ffffff;
+    border-bottom: 5px solid #cccccc;
+    width: 100%;
+    position:fixed;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+h1{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+#links{
+    margin-right: 0;
+    right: 0;
+    position: fixed;
+    top: 30px;
+    right: 120px;
+    margin-bottom: 0px;
+
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px solid #cccccc;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+  color: #777777;  
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    border-color: #dddddd;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.maincontent{
+    min-width: 940px;
+    background-color: #ffffff;
+    margin: 0 auto 0 auto;
+    min-height: 350px;
+    border: 1px solid #cccccc; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    color: #777777;
+}
+
+#main-bio,
+#bio-image {
+    float: left;
+}
+
+#bio-image{
+    margin-right: 20px;
+    margin-bottom: 1.5px;
+}
+
+footer{
+    clear: both;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #cccccc;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    text-align: center;
+    text-align: bottom;
+}
+
+#about{
+    padding: 20px;
+    text-decoration: none;
+}
+
+#portfolio {
+    text-decoration: none;
+    padding: 20px;
+}
+
+#contact{
+    padding: 20px;
+    text-decoration: none;
+}
+
+#button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.images{
+    width: 35%;
+    margin: 10px;
+}
+
+h3{
+    background-color: #4aaaa5;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*Media Queries */
+@media screen and (max-width: 980px) {
+    header {
+      position: static;
+    }
+
+    html{
+        width: 100%;
+    }
+
+    footer {
+      width: 980px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+        position: static;
+      }
+
+      html{
+        width: 100%;
+    }
+
+    footer {
+      width: 768px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 640px) {
+    header {
+        position: static;
+      }
+
+    html{
+        width: 100%;
+    }
+  
+    footer {
+      width: 640px;
+    }
+    
+  }
